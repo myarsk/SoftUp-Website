@@ -16,6 +16,28 @@ const roboto = Roboto({
 export const metadata: Metadata = {
   title: "SoftUp Agency - Next-Gen Software Solutions",
   description: "Cutting-edge blockchain, AI, and web development services for the future of technology.",
+  keywords: "blockchain development, AI integration, web development, mobile apps, cybersecurity, cloud solutions, software agency",
+  authors: [{ name: "SoftUp Agency" }],
+  creator: "SoftUp Agency",
+  publisher: "SoftUp Agency",
+  robots: "index, follow",
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://softupagency.com",
+    title: "SoftUp Agency - Next-Gen Software Solutions",
+    description: "Cutting-edge blockchain, AI, and web development services for the future of technology.",
+    siteName: "SoftUp Agency",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "SoftUp Agency - Next-Gen Software Solutions",
+    description: "Cutting-edge blockchain, AI, and web development services for the future of technology.",
+    creator: "@softupagency",
+  },
+  viewport: "width=device-width, initial-scale=1",
+  themeColor: "#00FFFF",
+  manifest: "/manifest.json",
 };
 
 export default function RootLayout({

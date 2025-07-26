@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://softupagency.com/sitemap.xml
+
+# Disallow sensitive areas (if any in the future)
+# Disallow: /admin/
+# Disallow: /api/
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
